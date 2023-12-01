@@ -77,15 +77,11 @@ body {
     
 }
 
-@media only screen and (max-width: 480px){
+@media screen and (max-width: 600px){
     .giris {
-        background-image: url(/img/giris-mobile.jpg);
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-        background-size: cover;
-        max-width: 200px;
-        height: auto;
+        background-image: url(img/giris.jpg);
+        max-width: 500px;
+        height: 500px;
     }
     .start{
         display: none;
