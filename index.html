@@ -3,12 +3,40 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <link rel="stylesheet" href="styles.css">
     <title>Touch and Play</title>
+    <style>
+        * {
+          margin:0;
+          padding:0;
+          box-sizing: border-box;
+        }
+        .content {
+          width: 900px;
+          margin: auto;
+          background: red;
+        }
+        
+        @media screen and (max-width:768px) {
+          .wrapper {
+            padding: 15px;
+          }
+          .content{
+            width: auto;
+          }
+        }
+        </style>
 </head>
 
-<body class="giris">
-    <a class="start" href="start.html"> <img src="img/start_button.png" alt="start" width="250px"></a>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="giris">
+                <a class="start" href="start.html"> <img src="img/start_button.png" alt="start" width="250px"></a>
+            </div>
+        </div>
+      </div>
     <script src="script.js"></script>
 </body>
 

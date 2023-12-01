@@ -87,19 +87,3 @@ body {
     width: 80px;
 
 }
-
-@media screen and (min-width: 800px) {
-    body {
-        background-image: url(img/bg.jpg);
-    }
-
-    .a.start-button {
-        position: absolute;
-        right: 44%;
-        bottom: 0;
-        border-radius: 20px;
-        height: 40px;
-        width: 40px;
-
-    }
-}
