@@ -44,10 +44,10 @@ function updateTime() {
 
 function toggleBackgroundMusic() {
   if (bgAudio.paused) {
-      bgAudio.play();
-    } else {
-      bgAudio.pause();
-    }
+    bgAudio.play();
+  } else {
+    bgAudio.pause();
+  }
 }
 
 function handleTargetClick() {
@@ -58,21 +58,21 @@ function handleTargetClick() {
 }
 
 function playSound() {
-    audio.currentTime = 0;
-    audio.play();
+  audio.currentTime = 0;
+  audio.play();
 }
 
 function handleGameContainerClick(event) {
-    if (event.target === gameContainer) {
-      score--;
-      updateScore();
-      playSound2();
-    }
+  if (event.target === gameContainer) {
+    score--;
+    updateScore();
+    playSound2();
+  }
 }
 
 function playSound2() {
-    audio2.currentTime = 0;
-    audio2.play();
+  audio2.currentTime = 0;
+  audio2.play();
 }
 
 updateScore();
