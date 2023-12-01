@@ -84,6 +84,8 @@ body {
         background-position: center center;
         background-attachment: fixed;
         background-size: cover;
+        width: 400;
+        height: 400;
     }
     .start{
         display: none;
