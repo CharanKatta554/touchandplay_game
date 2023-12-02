@@ -38,7 +38,7 @@ function updateTime() {
     clearInterval(gameInterval);
     target.removeEventListener('click', handleTargetClick);
     scoreDisplay.textContent = `Score: ${score} - Timer: 0:00`;
-    alert("Game over! Click on Exit button")
+    alert(`Game over! Your score is ${score}`)
   }
 }
 

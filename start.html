@@ -3,9 +3,38 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Vahşi Batı Nişan Oyunu Kolay</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    * {
+      margin: 2px;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .content {
+      width: 900px;
+      margin: auto;
+    }
+
+    @media screen and (max-width:1000px) {
+      .wrapper {
+        padding: 500px;
+      }
+
+      .content {
+        width: auto;
+      }
+
+      .media-player {
+        position: absolute;
+        text-align: center;
+        margin-top: 200px;
+        display: none;
+    }
+    }
+  </style>
 </head>
 
 <body class="start-page">
@@ -23,7 +52,6 @@
       Audio
     </audio>
   </div>
-
   <a href="index.html"> <img class="start-button" src="img/exit.png" alt="start" width="200px"></a>
 
   <audio id="audio" src="sound/click.mp3"></audio>
