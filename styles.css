@@ -11,25 +11,6 @@ body {
     background-size: cover;
 }
 
-.giris {
-    background-image: url(img/giris.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-
-    a.start {
-        img {
-            position: absolute;
-            right: 44%;
-            bottom: 0;
-            border-radius: 20px;
-            height: 40px;
-            width: 80px;
-        }
-    }
-}
-
 .start-page {
     .game-container {
         position: relative;
@@ -64,13 +45,6 @@ body {
         margin-bottom: 800px;
     }
 
-    .giris {
-        background-image: url(/img/giris-mobile.jpg);
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-        background-size: cover;
-    }
 
     .start {
         display: none;
@@ -78,12 +52,14 @@ body {
 
 }
 
-.start-buton {
-    position: absolute;
-    right: 44%;
-    bottom: 0;
-    border-radius: 20px;
-    height: 40px;
-    width: 80px;
+a {
+    .start-button {
+        position: absolute;
+        right: 44%;
+        bottom: 0;
+        border-radius: 20px;
+        height: 40px;
+        width: 80px;
 
+    }
 }
